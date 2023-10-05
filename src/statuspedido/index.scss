@@ -1,0 +1,90 @@
+.statusmae {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+    .statuscontainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        font-size: 24px;
+        margin-bottom: 130px;
+
+    }
+
+    .statuspedido {
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+
+
+.statusagrupa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+        .statusazul {
+            width: 110px;
+            margin: 40px;
+        }
+
+       
+    }
+
+.statusverificado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+   .statusverde {
+    background-color: #00E031;
+    width: 40vh;
+    height: 5vh;
+    
+}
+.statusverde img {
+    margin: 51px;
+}
+
+.statuscinza {
+    display: flex;
+    flex-direction: row;
+    background-color: #343945;
+    width: 40vh;
+    height: 5vh;
+
+    .statusboia {
+        width: 110px;
+        height: 80px;
+     margin-top: -18px !important;
+    }
+}
+
+.statuscinza img {
+    margin: 53px;
+}
+
+
+    .statussinal {
+     width: 80px;
+     margin-top: -17px !important;
+    }
+}
+
+
+
+.statusinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 7px;
+    margin-bottom: 70px;
+}
+.statusinfo h3 {
+    text-align: center;
+    margin: 56px;
+   
+}
+    
+}

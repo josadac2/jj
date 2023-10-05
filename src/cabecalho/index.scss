@@ -1,0 +1,106 @@
+
+
+
+.mae {
+display: flex;
+flex-direction: column;
+
+.container {
+
+
+.agrupa-categorias {
+display: flex;
+flex-direction: row;
+margin-bottom: 10px;
+
+.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-image: url(../../public/assets/image/fundo-cabecalho.png);
+width: 100vh;
+height: 6vh;
+border: 2px solid white;
+color: white;
+font-size: 20px;
+border-bottom: none;
+}
+
+
+
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./../../public/assets/image/fundo-cabecalho.png);
+    background-size: cover;
+    height: 15vh;
+    width: 100%;
+    background-repeat: no-repeat;
+
+
+    .lupa {
+        width: 30px;
+        height: 30px;
+       position: relative;
+       right: 190px;
+    }
+
+.carrinho {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+p{
+    font-size: 12px;
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+    .azulcarro {
+
+        width: 80px;
+    }
+}
+
+
+    .logo {
+        width: 100px;
+ 
+    }
+
+    input {
+        
+        font-size: 23px;
+        width: 470px;
+        height: 50px;
+        outline: none;
+        border-radius: 15px;
+        border: none;
+        padding-left: 35px;
+        margin-left: 100px;
+    }
+
+    .encontre::placeholder {
+        font-size: 24px;
+    }
+
+   
+
+    .panda {
+        width: 80px;
+    }
+}
+
+
+}
+
+
+
+}

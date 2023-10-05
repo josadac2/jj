@@ -1,0 +1,133 @@
+.informarmae {
+display: flex;
+flex-direction:column ;
+
+.informacaocontainer  {
+ 
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .informacoesinicio {
+        
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-top: 80px;
+        
+        img {
+            margin: 4px;
+        }
+    }
+
+}
+
+
+
+.infoinput {
+    display: flex;
+    flex-direction: column;
+    margin-left: 42px;
+
+
+.infocartao {
+    width: 30px;
+    position: relative;
+    right: 48px;
+    top: 6px;
+}
+
+.infoduplo {
+    margin-bottom: 20px;
+ 
+    
+
+.infodata {
+    width: 260px;
+    border: 2px solid #666;
+padding: 15px;
+border-radius: 6px;
+font-size: 18px;
+}
+
+.infodata::placeholder {
+    font-size: 18px;
+}
+
+.infocvv {
+    border: 2px solid #666;
+    padding: 15px;
+    width: 130px;
+    margin-left: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.infocvv::placeholder {
+    font-size: 18px;
+}
+
+
+}
+
+    .infonumero {
+        margin-bottom: 20px;
+        width: 400px;
+        border: 2px solid #666;
+        padding: 15px;
+        border-radius: 6px;
+        font-size: 18px;
+    }
+
+    .infonumero::placeholder {
+        font-size: 18px;
+    }
+
+
+
+}
+
+
+
+.infolabel {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 31px;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+   
+    .infoinputlabel {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+
+
+        .h4 {
+           font-size: 20px; 
+           margin-left: 13px;
+        }
+
+    }
+
+
+    
+}
+
+.infoazul {
+    color: white;
+    font-size: 24px;
+    border: none;
+    background-image: url(../../public/assets/image/fundo-cabecalho.png) ;
+    width: 395px;
+    height: 5vh;
+    margin-bottom: 100px;
+    margin-left: 13px;
+}
+
+
+}

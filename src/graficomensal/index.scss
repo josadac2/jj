@@ -1,0 +1,218 @@
+.mae-grafico {
+
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+.container-centroo {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+.container-vendas {
+display: flex;
+flex-direction: column;
+margin-right: 790px;
+margin-top: 60px;
+margin-bottom: 117px;
+
+.grafico-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+p {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.grafico-vermelho {
+  background-color: red;
+  width: 22px;
+  border-radius: 100px;
+ 
+}
+
+.grafico-verdinho {
+    background-color: #C9FF59;
+    width:22px;
+    border-radius: 100px;
+   
+  }
+
+
+  .grafico-verde {
+    background-color: #00FF38;
+    width: 22px;
+    border-radius: 100px;
+   
+  }
+}
+
+}
+
+
+
+
+
+
+.container-graficoo {
+
+    background-color: #ECECEC;
+    width: 980px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px 4px #8f8f8f ;
+
+.grafico-pp {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-top: 25px;
+    p {
+        margin-left: 37px;
+        font-size: 10px;
+        font-weight: 900;
+    }
+}
+
+
+
+    .subgrafico {
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: flex-end;
+        width: 870px;
+        height: 200px;
+        border-bottom: 4px solid black;
+        border-left: 4px solid black;
+
+        .coresgraficoA {
+            margin-right: 40px !important;
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: rgb(255, 0, 0);
+            width: 10px;
+            height: 60px;
+            
+        }
+
+        .coresgraficoB {
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: #00FF38;
+            width: 10px;
+            height: 140px;
+            
+        }
+
+        .coresgraficoC {
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: #ADFF00;
+            width: 10px;
+            height: 100px;
+            
+        }
+
+        .coresgraficoD {
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: rgb(255, 0, 0);
+            width: 10px;
+            height: 40px;
+            
+        }
+
+        .coresgraficoE {
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: #ADFF00;
+            width: 10px;
+            height: 100px;
+            
+        }
+
+        .coresgraficoF {
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: #00FF38;
+            width: 10px;
+            height: 170px;
+            
+        }
+
+        .coresgraficoG {
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: rgb(255, 0, 0);
+            width: 10px;
+            height: 60px;
+            
+        }
+
+        .coresgraficoH {
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: rgb(255, 0, 0);
+            width: 10px;
+            height: 20px;
+            
+        }
+
+        .coresgraficoI {
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: #00FF38;
+            width: 10px;
+            height: 170px;
+            
+        }
+
+        .coresgraficoJ {
+            position: relative;
+            top: 40px;
+            margin:40px;
+            background-color: #ADFF00;
+            width: 10px;
+            height: 80px;
+            
+        }
+
+       
+    
+
+    }
+    
+}
+
+
+}
+
+}

@@ -1,0 +1,237 @@
+.mae-grafico {
+
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+.container-centro {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+.container-vendas {
+display: flex;
+flex-direction: column;
+margin-right: 790px;
+margin-top: 60px;
+margin-bottom: 117px;
+
+.grafico-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+p {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.grafico-vermelho {
+  background-color: red;
+  width: 22px;
+  border-radius: 100px;
+ 
+}
+
+.grafico-verdinho {
+    background-color: #C9FF59;
+    width:22px;
+    border-radius: 100px;
+   
+  }
+
+
+  .grafico-verde {
+    background-color: #00FF38;
+    width: 22px;
+    border-radius: 100px;
+   
+  }
+}
+
+}
+
+
+
+
+
+
+.container-grafico {
+
+    background-color: #ECECEC;
+    width: 980px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px 4px #8f8f8f ;
+
+.grafico-p {
+    display: flex;
+    flex-direction: row;
+    margin-right: 35px;
+    margin-top: 25px;
+    p {
+        margin-left: 39px;
+        font-size: 10px;
+        font-weight: 900;
+    }
+}
+
+
+
+    .subgrafico {
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: flex-end;
+        width: 850px;
+        height: 200px;
+        border-bottom: 4px solid black;
+        border-left: 4px solid black;
+
+        .coresgrafico {
+            margin-right: 40px !important;
+            position: relative;
+            top: 29px;
+            margin:29px;
+            background-color: rgb(255, 0, 0);
+            width: 10px;
+            height: 60px;
+            
+        }
+
+        .coresgrafico2 {
+            position: relative;
+            top: 34px;
+            margin:34px;
+            background-color: #00FF38;
+            width: 10px;
+            height: 140px;
+            
+        }
+
+        .coresgrafico3 {
+            position: relative;
+            top: 29px;
+            margin:29px;
+            background-color: #ADFF00;
+            width: 10px;
+            height: 100px;
+            
+        }
+
+        .coresgrafico4 {
+            position: relative;
+            top: 23px;
+            margin:23px;
+            background-color: rgb(255, 0, 0);
+            width: 10px;
+            height: 40px;
+            
+        }
+
+        .coresgrafico5 {
+            position: relative;
+            top: 26px;
+            margin:26px;
+            background-color: #ADFF00;
+            width: 10px;
+            height: 100px;
+            
+        }
+
+        .coresgrafico6 {
+            position: relative;
+            top: 24px;
+            margin:24px;
+            background-color: #00FF38;
+            width: 10px;
+            height: 170px;
+            
+        }
+
+        .coresgrafico7 {
+            position: relative;
+            top: 29px;
+            margin:29px;
+            background-color: rgb(255, 0, 0);
+            width: 10px;
+            height: 60px;
+            
+        }
+
+        .coresgrafico8 {
+            position: relative;
+            top: 27px;
+            margin:27px;
+            background-color: rgb(255, 0, 0);
+            width: 10px;
+            height: 20px;
+            
+        }
+
+        .coresgrafico9 {
+            position: relative;
+            top: 37px;
+            margin:37px;
+            background-color: #00FF38;
+            width: 10px;
+            height: 170px;
+            
+        }
+
+        .coresgrafico10 {
+            position: relative;
+            top: 35px;
+            margin:35px;
+            background-color: #ADFF00;
+            width: 10px;
+            height: 80px;
+            
+        }
+
+        .coresgrafico11 {
+            position: relative;
+            top: 48px;
+            margin:48px;
+            background-color: rgb(255, 0, 0);
+            width: 10px;
+            height: 50px;
+            
+        }
+
+        .coresgrafico12 {
+            position: relative;
+            top: 29px;
+            margin:29px;
+            background-color: #ADFF00;
+            width: 10px;
+            height: 100px;
+            
+        }
+
+    
+
+    }
+    
+}
+
+
+}
+
+}

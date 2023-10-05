@@ -1,0 +1,79 @@
+.mae-comentario {
+
+
+.container-comentario {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 10px;
+
+button {
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 530px;
+    width: 400PX;
+    padding: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #309CFF;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.subcontainer-bordas {
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #e2e2e2;
+    padding: 70px 10px 10px 160px ;
+    height: 60vh;
+    width: 80vh;
+ border: 2px solid black;
+
+.textarea {
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+border-radius: 10px;
+}
+
+
+ .img-input {
+    display: flex;
+    flex-direction: row; 
+    
+
+
+
+    .input-comentario {
+        display: flex;
+        align-items: center;
+
+input {
+    
+    padding: 20px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+input::placeholder {
+    padding-left: 40px;
+}
+
+.panda-comentario {
+    width: 40px;
+    position: relative;
+    left: 50px;
+}
+
+    }
+ }
+}
+
+
+}
+
+
+
+}

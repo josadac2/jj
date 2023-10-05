@@ -1,0 +1,20 @@
+.rodapee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../public/assets/image/fundo-cabecalho.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 101%;
+    height: 9vh;
+   padding: 10px 50px 10px 50px;
+
+ div > img {
+    margin: 5px;
+ }
+
+    h3 {
+        color: white;
+    }
+  }

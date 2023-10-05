@@ -1,0 +1,69 @@
+.mae-pedidos {
+
+
+
+  
+nav {
+    background-image: url(../../public/assets/image/fundo-cabecalho.png);
+    width: 100%;
+    height: 15vh;
+}
+
+
+.containerPedido {
+    display: flex;
+    flex-direction: column;
+    width: 137.7vh;
+    height: 83vh;
+    padding: 40px 0px 0px 0px;
+    background-image: url(../../public/assets/image/fundo-onda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   align-items: center;
+  h1 {
+    font-size: 65px;
+    margin-bottom: 190px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .agrupa-card {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+
+}
+
+.subtotal {
+   background-color: #004586;
+   width: 100%;
+   height: 16vh;
+   margin-top: -10px;
+
+   .sub2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between ;
+   padding: 60px 110px 10px 110px;
+
+h3 {
+  color: white;
+  font-size: 32px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+   button {
+    font-size: 24px;
+    color: #309CFF;
+    border: none;
+    padding: 15px;
+    width: 170px;
+    border-radius: 10px;
+    cursor: pointer;
+   }
+
+   }
+}
+
+}
