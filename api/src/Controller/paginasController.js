@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { Buscar } from "../Repository/paginasRepository.js";
+import { Buscar , Login } from "../Repository/paginasRepository.js";
 
 
 let endpoints = Router();
@@ -23,6 +23,8 @@ endpoints.post('/login', async (req,resp) => {
 
     let {email , senha} = req.body
 
+    let r = await Login(email , senha)
+    
 
 })
 
