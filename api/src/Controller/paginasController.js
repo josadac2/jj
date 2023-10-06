@@ -27,6 +27,8 @@ endpoints.post('/login', async (req,resp) => {
 
     resp.send(r)
     
+    if(!r.email)
+     throw new Error('Email Inválido')
 
 })
 
