@@ -13,7 +13,7 @@ export async function Login (email , senha) {
    let r = await conexao.query(comando , [email ,senha])
 
    return r[0];
-
+    
 }
 
 
@@ -26,5 +26,5 @@ let comando = `select *
 
     let r = await conexao.query(comando)
 
-    return r ;
+    return r;
 }

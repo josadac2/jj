@@ -22,13 +22,13 @@ endpoints.post('/login', async (req,resp) => {
 
 try{
 
-    const {email , senha} = req.body
+    const {email , senha} = req.body;
 
   
 
     let r = await Login(email , senha);
 
-    if (!r)
+    if (r.length === 0)
     throw new Error('Credenciais Inválidas')
 
     resp.send(r)
