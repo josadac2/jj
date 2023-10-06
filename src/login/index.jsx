@@ -1,9 +1,39 @@
+import { useState } from 'react';
+import axios from 'axios';
 import './index.scss' ;
-
+import { useNavigate } from 'react-router-dom';
 
 
 export function Login () {
 
+    const navigate = useNavigate();
+
+const [email , setEmail] = useState('');
+const [senha , setSenha] = useState('');
+const [erro, setErro] = useState([])
+
+async function Entrar() {
+
+    try{
+    let url = 'http://localhost:5001/login';
+
+    let pessoa = {
+        email: email ,
+        senha: senha
+    }
+
+    let r = await axios.post(url,pessoa)
+
+    navigate('/')
+}catch(err) {
+    if(err.response.status === 400) {
+        setErro(err.response.data.erro)
+    }
+}
+
+}
+
+    
 
 return (
     <div className='mae-login'>
@@ -26,8 +56,8 @@ return (
                 </div>
                         
                         <div className='input-login'>
-                            <input type="text" placeholder='EMAIL'/>
-                            <input type="text" placeholder='SENHA'/>
+                            <input type="text" placeholder='EMAIL' value={email} onChange={e => setEmail (e.target.value)}/>
+                            <input type="password" placeholder='SENHA' value={senha} onChange={e => setSenha (e.target.value)}/>
                         </div>
 
                 <div className='agrupa-botao'>
@@ -38,7 +68,7 @@ return (
                         </div>
 
                         <div>
-                            <button>ENTRAR</button>
+                            <button onClick={Entrar}>ENTRAR</button>
                         </div>
                 </div>
 

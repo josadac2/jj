@@ -20,15 +20,24 @@ resp.send(resposta)
 
 endpoints.post('/login', async (req,resp) => {
 
+try{
 
-    let {email , senha} = req.body
+    const {email , senha} = req.body
+
+  
 
     let r = await Login(email , senha);
 
+    if (!r)
+    throw new Error('Credenciais Inválidas')
+
     resp.send(r)
-    
-    if(!r.email)
-     throw new Error('Email Inválido')
+}  catch (err) {
+    resp.status(404).send({
+        erro : err.message
+    })
+}
+   
 
 })
 
