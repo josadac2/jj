@@ -23,7 +23,9 @@ endpoints.post('/login', async (req,resp) => {
 
     let {email , senha} = req.body
 
-    let r = await Login(email , senha)
+    let r = await Login(email , senha);
+
+    resp.send(r)
     
 
 })

@@ -1,4 +1,3 @@
-import userEvent from '@testing-library/user-event';
 import mysql from 'mysql2/promise';
 
 
