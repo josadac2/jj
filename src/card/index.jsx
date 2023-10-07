@@ -6,7 +6,7 @@ import './index.scss'
 export default function Card (props) {
 
 return (
-    <div className='containeer'>
+    <div className='containeeeeeeeeeeeeeeer'>
 
         <div className='card'>
            <div className='check'>
