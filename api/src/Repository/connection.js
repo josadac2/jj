@@ -15,4 +15,4 @@ database:process.env.DB
 
 export default conexao ;
 
-console.log(`BD SUBIU NA PORTA `);
+console.log(`BD SUBIU`);

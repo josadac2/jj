@@ -3,49 +3,35 @@
     import './index.scss';
     import Rodape from '../rodape';
 
+
+
+
+   
+
+
     export default function Home(){
+
+
+
+
+
+
         return(
             <div className='mae'>
         <Cabecalho/>
 
         <div className='container'>
 
-            {/*primeira parte imagem piscina  */}
-            <div className='agrupa-piscinas'>
-
-                    <div className='card'>
-                        <img className='piscina' src="./assets/image/pisc-1.png" alt="" />
-                    </div>
-    
-                            <div className='card'>
-                                <img className='piscina' src="./assets/image/pisc-2.png" alt="" />
-                            </div>
-
-                    <div className='card'>
-                        <img className='piscina' src="./assets/image/pisc-3.png" alt="" />
-                    </div>
-                    
-            </div>
-            {/* fim das imagem da primeira parte piscina */}
-
-
-            <div className='agrupa-piscinas-2'>
-
-                    <div className='card'>
-                        <img className='piscina' src="./assets/image/pisc-4.png" alt="" />
-                    </div>
-    
-                            <div className='card'>
-                                <img className='piscina' src="./assets/image/pisc-5.png" alt="" />
-                            </div>
-
-                    <div className='card'>
-                        <img className='piscina' src="./assets/image/pisc-6.png" alt="" />
-                    </div>
-                    
-            </div>
-    {/* final das imagens piscinas */}
-
+<div className="marquee">
+          <marquee behavior="" direction=""><img className='homepiscina' src="./assets/image/pisc-1.png" alt="" />
+                                            <img className='homepiscina' src="./assets/image/pisc-2.png" alt="" /> 
+                                            <img className='homepiscina' src="./assets/image/pisc-3.png" alt="" />
+                                            <img className='homepiscina' src="./assets/image/pisc-4.png" alt="" />
+                                            <img className='homepiscina' src="./assets/image/pisc-5.png" alt="" />
+                                            <img className='homepiscina' src="./assets/image/pisc-6.png" alt="" />
+                                            </marquee>
+       
+ </div>      
 
                 <div className='subcontainer'>
                     
